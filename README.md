@@ -77,11 +77,11 @@ Install a Ruby with specific configuration:
 
 Using ruby-install with [RVM]:
 
-    $ ruby-install -i ~/.rvm/rubies/ruby-2.0.0-p247 ruby 2.0.0-p247
+    $ ruby-install --rubies-dir ~/.rvm/rubies ruby 2.0.0-p247
 
 Using ruby-install with [rbenv]:
 
-    $ ruby-install -i ~/.rbenv/versions/ruby-2.0.0-p247 ruby 2.0.0-p247
+    $ ruby-install --rubies-dir ~/.rbenv/versions ruby 2.0.0-p247
 
 ## Install
 
